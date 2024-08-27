@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Wybór domyślnej czcionki */
+    background-size: cover; 
+    background-position: center;
+
+  }
+  
+  /* Styl dla kontenera formularza */
+  .container {
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Dodanie koloru tła z przezroczystością */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  /* Pozostałe style jak w poprzednim przykładzie */
+  .container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  .container label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  .container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #0056b3;
+  }
+  .message {
+    margin-top: 20px;
+    text-align: center;
+    color: #555;
+  }
+  .message a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  .message a:hover {
+    text-decoration: underline;
+  }
+  .container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+footer {
+  text-align: center;
+  margin-top: 2%; /* Ustawienie stopki na dole strony */
+  padding: 2%; /* Dodatkowe wypełnienie dla estetyki */
+}
+.button:submit
+{
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer
+}
+form {
+  max-width: 400px;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+
+
+form .btn-primary {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form .btn-primary:hover {
+  background-color: #0056b3;
+}
+.form-check-label {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 1px;
+  padding: 10%;
+}
+
+.show-hide-password {
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+
